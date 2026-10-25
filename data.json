@@ -1,0 +1,140 @@
+{
+  "profile": {
+    "name": "PHAN HONG NGOC GIAO",
+    "title": "Industrial and Graphic Designer",
+    "email": "giaophng26@gmail.com",
+    "phone": "+84 937 565 749",
+    "linkedin": "https://www.linkedin.com/in/phan-giao/",
+    "behance": "https://www.behance.net/phangiao",
+    "intro_title": "untitled_being.txt",
+    "intro_text": "Hello, my name is Giao Phan. You might notice my portfolio website has a rather curious name: untitled_being.txt. Every creative journey begins the same way. Before a single idea takes shape, everything starts as untitled, a blank page waiting for a story. I've always loved the .txt file format. It is one of the humblest things in the digital world, yet quietly powerful. Change its extension, and it can become almost anything. Pair that with _being, a simple presence, a human life, and you find me. Like everyone else, I hold the freedom to begin again and become whoever I choose to be. Last year, I created a detailed MULTI-DESIGN PORTFOLIO on Behance and genuinely enjoyed every moment of making it. To keep that creative spark alive, I built this website, simple, rooted in my own aesthetic, and continuing the story I started."
+  },
+  "education": {
+    "school": "Ho Chi Minh University of Architecture",
+    "degree": "Bachelor's degree in Industrial Design",
+    "time": "September 2019 - July 2023",
+    "honor": "Honors: Graduation Thesis Salutatorian"
+  },
+  "experiences": [
+    {
+      "company": "Networld Solutions Asia",
+      "role": "Graphic Designer",
+      "time": "November 2025 - June 2026",
+      "desc": "Designed social media visuals and marketing assets for agency clients. Collaborated with the creative team to develop key visuals and campaign materials."
+    },
+    {
+      "company": "Long Beach Pearl Manufacturer",
+      "role": "Product Planner",
+      "time": "May 2025 - October 2025",
+      "desc": "Developed jewelry collection concepts and production plans. Worked with design and manufacturing teams to deliver products from concept to production."
+    },
+    {
+      "company": "LR-TEK",
+      "role": "Graphic Designer",
+      "time": "February 2024 - February 2025",
+      "desc": "Designed branding, marketing, and social media assets for international clients. Collaborated with cross-functional teams to deliver creative materials and presentations."
+    },
+    {
+      "company": "Phu Nhuan Jewelry Joint Stock Company",
+      "role": "Jewelry Creative Designer",
+      "time": "June 2022 - August 2023",
+      "desc": "Developed jewelry concepts and technical design assets for commercial collections. Worked with cross-functional teams to bring products from concept to production."
+    }
+  ],
+  "expertise": {
+    "languages": [
+      "Native Vietnamese",
+      "Fluent English",
+      "Intermediate Korean",
+      "Basic Python, Html, Css, Js"
+    ],
+    "soft_skills": [
+      "Creative Thinking",
+      "Problem Solving",
+      "Experimenting",
+      "Trend Forecasting",
+      "Storyboarding"
+    ],
+    "hard_skills": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Adobe Indesign",
+      "Rhino",
+      "Blender"
+    ]
+  },
+  "gallery": [
+    {
+      "img": "img/60E9C281-8FF0-4E8D-B463-5166B96FF7DE.jpg",
+      "caption": "Simpatico, 2025. Experiment with Ps gradient map."
+    },
+    {
+      "img": "img/IMG_2975.PNG",
+      "caption": "Mendicant, 2025. Experiment with Ps gradient map."
+    },
+    {
+      "img": "img/IMG_3098.JPG",
+      "caption": "Radish, 2025. Experiment with Ps gradient map."
+    },
+    {
+      "img": "img/pettit.png",
+      "caption": "Le Pettit Prince, 2026."
+    },
+    {
+      "img": "img/IMG_2901.JPG",
+      "caption": "Luminousity, 2025. Experiment with Ps gradient map."
+    },
+    {
+      "img": "img/fish.png",
+      "caption": "Ambrosia, 2026."
+    },
+    {
+      "img": "img/IMG_2900.JPG",
+      "caption": "Dessicated, 2025. Experiment with Ps gradient map."
+    },
+    {
+      "img": "img/Untitled_Artwork.png",
+      "caption": "Equanimity, 2025."
+    },
+    {
+      "img": "img/IMG_2866.PNG",
+      "caption": "Devoutness, 2025. Experiment with Ps gradient map."
+    },
+    {
+      "img": "img/IMG_2872.PNG",
+      "caption": "Alienation, 2025. Experiment with Ps gradient map."
+    },
+    {
+      "img": "img/A8903BBD-F4F3-4F5B-AAAB-CC8451482851.jpg",
+      "caption": "Bông mít, 2022."
+    },
+    {
+      "img": "img/original.gif",
+      "caption": "Freakin' fridge, 2026."
+    },
+    {
+      "img": "SUMIKURA/2646988632745303996.jpg",
+      "caption": "Sumikura's artboard, 2026."
+    },
+    {
+      "img": "SUMIKURA/Artboard 1.jpg",
+      "caption": "Sumikura's artboard, 2026."
+    },
+    {
+      "img": "SUMIKURA/IMG_1026.JPG",
+      "caption": "Sumikura's artboard, 2026."
+    },
+    {
+      "img": "SUMIKURA/Untitled_Artwork.jpg",
+      "caption": "Sumikura's artboard, 2026."
+    },
+    {
+      "img": "SUMIKURA/JOCULAR.png",
+      "caption": "Coltish, 2026."
+    },
+    {
+      "img": "img/bird right.png",
+      "caption": "Sparrow, 2026."
+    }
+  ]
+}

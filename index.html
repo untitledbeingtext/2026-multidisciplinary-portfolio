@@ -1,773 +1,1100 @@
 <!DOCTYPE html>
+
 <head>
     <title>Untitled_being.txt</title>
-    <link rel="icon" type="image/png" href="img/ubt.png">
+    <link rel="icon" type="image/webp" href="imgwebp/ubt.webp">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oooh+Baby&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oooh+Baby&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
 </head>
-<body>
-<!-- COVER -->
-    <div class="cover" style="display: grid; grid-template-columns: 1fr 110mm 220mm 1fr; align-items:start;">
-        <div>
-            <div style="height: 225mm;">a</div>
-            <div style="height: 200mm;">a</div>
-            <div class="interior_zone">
-                <div class="sword" style="background-image: url(img/sword.png);">
-                    <div class="interior-grid" style="display: grid; grid-template-rows: 100mm 95mm 57mm;">
-                        <div></div>
-                        <div style="display: grid; grid-template-columns: 1fr 1fr;">
-                            <div></div>
-                            <div class="sword"></div>
-                        </div>
-                        <div style="display: grid; grid-template-columns: 5mm 1fr;">
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+<body style="overflow-x: hidden; position: relative;">
+    <div id="scale-wrapper">
+        <div class="background">
+            <div class="cover"></div>
+            <div class="cover1"></div>
+            <div class="cover2"></div>
         </div>
-        <div class="cover_left" style="display: grid; grid-template-rows: 285mm 1fr;">
-            <div class="cover_left_start" style=" background-image: url(img/beige.png);">
-                <div style="padding: 0px 0px;font-weight: bold; font-size: 27mm; text-align: center; font-family:UnifrakturMaguntia; margin: 0px 0px;"> untitled_<br>being.txt</div>
-                <div style="text-align: justify; text-align-last: center;font-weight: bold;"><hr>Hello, my name is Giao Phan.<br>
-                <br>You might notice my portfolio website has a rather curious name: <span style="color: #002b59;">untitled_being.txt</span>. Every creative journey begins the same way. Before a single idea takes shape, everything starts as <span style="color: #002b59;">untitled</span>, a blank page waiting for a story. I've always loved the <span style="color: #002b59;">.txt</span> file format. It is one of the humblest things in the digital world, yet quietly powerful. Change its extension, and it can become almost anything.
-                <br>Pair that with <span style="color: #002b59;">_being</span>, a simple presence, a human life, and you find me. Like everyone else, <span style="background-image: url(img/lime.png); color: #002b59;">I hold the freedom to begin again and become whoever I choose to be.</span> Last year, I created a detailed <a class="connection1" href="https://www.behance.net/gallery/235634995/2025-MULTI-DESIGN-PORTFOLIO" target="blank" rel="noopener noreferrer">MULTI-DESIGN PORTFOLIO</a> on Behance and genuinely enjoyed every moment of making it. To keep that creative spark alive, I built this website, simple, rooted in my own aesthetic, and continuing the story I started.
-                <br><br>Welcome to my Multidisciplinary portfolio!</div>
-                <div class="img"></div>
-            </div>
-            <div class="cover_left_end" style=" background-image: url(img/lime.png);margin-top: 5mm; display: grid; grid-template-rows: 1fr 100mm 57.5mm; row-gap: 5mm;font-size: 40px; letter-spacing: 5px; text-align: center; font-weight: bold;">
-                <!--<div class="question">IS SOMEBODY<br>GONNA MATCH<br>MY<span style=" background-image: url(img/neon.png);"> FRIDGE? </span></div>-->
-                <div class="match-text">IS SOMEBODY<br>GONNA MATCH<br>MY <span class="highlight-word"></span></div>
-                <div class="compartments" style="display: grid; grid-template-columns: 65mm 35mm; font-size: 14px; letter-spacing: 0.5px;">
-                    <div class="fridge"></div>
-                    <div style="display: grid; grid-template-rows: 25mm 12.5mm 25mm 12.5mm 25mm;">
-                        <div class="box" data-name="FREEZER COMPARTMENT"></div>
-                        <div class="arrow"></div>
-                        <div class="box" data-name="FRIDGE COMPARTMENT"></div>
-                        <div class="arrow"></div>
-                        <div class="box" data-name="CRISPER DRAWER"></div>
+        <div class="contents"
+            style="display: grid; grid-template-rows: 650mm 10mm 200mm; max-height: 1000px; margin-top: auto; margin-bottom: auto;">
+            <div class="content"
+                style="display: grid; grid-template-columns: 100mm 110mm 220mm 100mm; align-items:start;">
+                <div style="width: 100mm;">
+                    <div style="height: 225mm;">Mene Mene</div>
+                    <div style="height: 230mm;">Tekel Upharsin</div>
+                    <div class="interior_zone" style="display: flex; justify-content: flex-end; height: 225mm;">
+                        <div class="sword"
+                            style="background-image: url(imgwebp/sword.webp);width: 80mm; margin-left: 25mm; margin-bottom: 15mm;">
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <div style="box-sizing: border-box; border: 0.5px solid coral; font-size: 22px; padding: 10px 0px;">FREEZER COMPARTMENT</div>
-                    <div style="box-sizing: border-box; border: 0.5px; font-size: 16px; font-weight: normal; letter-spacing: 1px; padding: 10px 10px; text-align: justify;">Just as a freezer preserves what matters most, this compartment keeps the foundations of my practice: my experience, technical and interpersonal skills, software proficiency, and academic background. Think of it as my resume, <span style="background-image: url(img/neon.png);">thoughtfully stored for you to explore.</span></div>
+                <div class="cover_left" style="display: grid; grid-template-rows: 285mm 220mm;">
+                    <div class="cover_left_start" style=" background-image: url(imgwebp/beige.webp);">
+                        <div
+                            style="padding: 0px 0px;font-weight: bold; font-size: 27mm; text-align: center; font-family:UnifrakturMaguntia; margin: 0px 0px;">
+                            untitled_<br>being.txt</div>
+                        <div style="text-align: justify; text-align-last: center;font-weight: bold;">
+                            <hr>Hello, my name is Giao Phan.<br>
+                            <br>You might notice my portfolio website has a rather curious name: <span
+                                style="color: #002b59;">untitled_being.txt</span>. Every creative journey begins the
+                            same way. Before a single idea takes shape, everything starts as <span
+                                style="color: #002b59;">untitled</span>, a blank page waiting for a story. I've always
+                            loved the <span style="color: #002b59;">.txt</span> file format. It is one of the humblest
+                            things in the digital world, yet quietly powerful. Change its extension, and it can become
+                            almost anything.
+                            <br>Pair that with <span style="color: #002b59;">_being</span>, a simple presence, a human
+                            life, and you find me. Like everyone else, <span
+                                style="background-image: url(imgwebp/lime.webp); color: #002b59;">I hold the freedom to begin
+                                again and become whoever I choose to be.</span> Last year, I created a detailed <a
+                                class="connection1"
+                                href="https://www.behance.net/gallery/235634995/2025-MULTI-DESIGN-PORTFOLIO"
+                                target="blank" rel="noopener noreferrer">MULTI-DESIGN PORTFOLIO</a> on Behance and
+                            genuinely enjoyed every moment of making it. To keep that creative spark alive, I built this
+                            website, simple, rooted in my own aesthetic, and continuing the story I started.
+                            <br><br>Welcome to my Multidisciplinary portfolio!
+                        </div>
+                        <div class="img"></div>
+                    </div>
+                    <div class="cover_left_end"
+                        style=" background-image: url(imgwebp/lime.webp);margin-top: 5mm; display: grid; grid-template-rows: 1fr 100mm 57.5mm; row-gap: 5mm;font-size: 40px; letter-spacing: 5px; text-align: center; font-weight: bold;">
+                        <!--<div class="question">IS SOMEBODY<br>GONNA MATCH<br>MY<span style=" background-image: url(img/neon.png);"> FRIDGE? </span></div>-->
+                        <div class="match-text">IS SOMEBODY<br>GONNA MATCH<br>MY <span class="highlight-word"></span>
+                        </div>
+                        <div class="compartments"
+                            style="display: grid; grid-template-columns: 65mm 35mm; font-size: 14px; letter-spacing: 0.5px;">
+                            <div class="fridge"></div>
+                            <div style="display: grid; grid-template-rows: 25mm 12.5mm 25mm 12.5mm 25mm;">
+                                <div class="box" data-name="FREEZER COMPARTMENT"></div>
+                                <div class="arrow"></div>
+                                <div class="box" data-name="FRIDGE COMPARTMENT"></div>
+                                <div class="arrow"></div>
+                                <div class="box" data-name="CRISPER DRAWER"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div
+                                style="box-sizing: border-box; border: 0.5px solid coral; font-size: 22px; padding: 10px 0px;">
+                                FREEZER COMPARTMENT</div>
+                            <div
+                                style="box-sizing: border-box; border: 0.5px; font-size: 16px; font-weight: normal; letter-spacing: 1px; padding: 10px 10px; text-align: justify;">
+                                Just as a freezer preserves what matters most, this compartment keeps the foundations of
+                                my practice: my experience, technical and interpersonal skills, software proficiency,
+                                and academic background. Think of it as my resume, <span
+                                    style="background-image: url(imgwebp/neon.webp);">thoughtfully stored for you to
+                                    explore.</span></div>
+                        </div>
+                    </div>
+                    <div class="cover_left_end" style=" background-image: url(imgwebp/lime.webp); margin-top: 1mm;">
+                        <div>
+                            <div
+                                style="box-sizing: border-box; border: 0.5px solid coral; font-size: 22px; padding: 10px 0px; text-align: center; font-weight: bold; letter-spacing: 5px;">
+                                FRIDGE COMPARTMENT</div>
+                            <div
+                                style="box-sizing: border-box; border: 0.5px; font-size: 16px; font-weight: normal; letter-spacing: 1px; padding: 10px 10px; text-align: justify;">
+                                Freshly stocked with my latest work, this compartment contains recent projects that
+                                reflect my current thinking, skills, and creative direction.</div>
+                        </div>
+                        <div
+                            style="background-image:url(imgwebp/neon.webp); text-align: justify; font-size: 17px; padding: 10px 10px; text-align: center; font-weight: bold; letter-spacing: 1px;">
+                            <div style="display: block;">
+                                <div style="text-align: left; display: inline-block; float: left;">Hanh Phuc Hospital
+                                </div>
+                                <div style="display: inline-block; font-size: 10px;">...................</div>
+                                <div style="text-align: right; display: inline-block; float: right;">01</div>
+                            </div>
+                            <div style="display: block;">
+                                <div style="text-align: left; display: inline-block; float: left;">Pfizer</div>
+                                <div style="display: inline-block; font-size: 10px;">
+                                    ......................................</div>
+                                <div style="text-align: right; display: inline-block; float: right;">02</div>
+                            </div>
+                            <div style="display: block;">
+                                <div style="text-align: left; display: inline-block; float: left;">Daikin</div>
+                                <div style="display: inline-block; font-size: 10px;">
+                                    ......................................</div>
+                                <div style="text-align: right; display: inline-block; float: right;">03</div>
+                            </div>
+                            <div style="display: block;">
+                                <div style="text-align: left; display: inline-block; float: left;">Traphaco</div>
+                                <div style="display: inline-block; font-size: 10px;">...................................
+                                </div>
+                                <div style="text-align: right; display: inline-block; float: right;">04</div>
+                            </div>
+                            <div style="display: block;">
+                                <div style="text-align: left; display: inline-block; float: left;">Cozz</div>
+                                <div style="display: inline-block; font-size: 10px;">
+                                    .........................................</div>
+                                <div style="text-align: right; display: inline-block; float: right;">05</div>
+                            </div>
+                            <div style="display: block;">
+                                <div style="text-align: left; display: inline-block; float: left;">Nam Ngu</div>
+                                <div style="display: inline-block; font-size: 10px;">
+                                    ....................................</div>
+                                <div style="text-align: right; display: inline-block; float: right;">06</div>
+                            </div>
+                            <div style="display: block;">
+                                <div
+                                    style="text-align: left; display: inline-block; float: left;text-decoration: line-through;">
+                                    Sumikura</div>
+                                <div style="display: inline-block; font-size: 10px;text-decoration: line-through;">
+                                    ...................................</div>
+                                <div
+                                    style="text-align: right; display: inline-block; float: right; text-decoration: line-through;">
+                                    07</div>
+                            </div>
+                            <div style="display: block; ">
+                                <div
+                                    style="text-align: left; display: inline-block; float: left; text-decoration: line-through;">
+                                    Eco Resident</div>
+                                <div style="display: inline-block; font-size: 10px;text-decoration: line-through;">
+                                    ............................</div>
+                                <div
+                                    style="text-align: right; display: inline-block; float: right; text-decoration: line-through;">
+                                    08</div>
+                            </div>
+                        </div>
+                        <div>
+                            <div
+                                style="box-sizing: border-box; border: 0.5px solid coral; font-size: 22px; padding: 10px 0px; text-align: center; font-weight: bold; letter-spacing: 5px; margin-top: 5mm;">
+                                CRISPER DRAWER</div>
+                            <div
+                                style="box-sizing: border-box; border: 0.5px; font-size: 16px; font-weight: normal; letter-spacing: 1px; padding: 10px 10px; text-align: justify;">
+                                This drawer contains personal illustrations and experimental work. It serves as a space
+                                for exploration, where I apply, adapt, and push the techniques I've learned throughout
+                                my professional practice to discover new creative possibilities.</div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="cover_left_end" style=" background-image: url(img/lime.png); margin-top: 1mm;">
-                <div>
-                    <div style="box-sizing: border-box; border: 0.5px solid coral; font-size: 22px; padding: 10px 0px; text-align: center; font-weight: bold; letter-spacing: 5px;">FRIDGE COMPARTMENT</div>
-                    <div style="box-sizing: border-box; border: 0.5px; font-size: 16px; font-weight: normal; letter-spacing: 1px; padding: 10px 10px; text-align: justify;">Freshly stocked with my latest work, this compartment contains recent projects that reflect my current thinking, skills, and creative direction.</div>
-                </div>
-                <div style="background-image:url(img/neon.png); text-align: justify; font-size: 17px; padding: 10px 10px; text-align: center; font-weight: bold; letter-spacing: 1px;">
-                    <div style="display: block;">
-                        <div style="text-align: left; display: inline-block; float: left;">Hanh Phuc Hospital</div>
-                        <div style="display: inline-block; font-size: 10px;">...................</div>
-                        <div style="text-align: right; display: inline-block; float: right;">01</div>
+                <div class="cover_right" style="display: grid; grid-template-rows: 10mm 307mm;">
+                    <div class="cover_right_start"
+                        style="font-family:Rock Salt; color:  #002b59; font-size: 13px; padding: 0px 15px; text-align: left; letter-spacing: 2px;">
+                        <div class="cover_right_start1"
+                            style="width: 200mm; height: 25mm; background-image: url(imgwebp/yellow.webp); padding: 7px 20px; line-height: 26px;">
+                            <div>Hello there, please don't let me fall behind<br>your curiosity brings my world back to
+                                color, and all it takes is a hover</div>
+                        </div>
                     </div>
-                    <div style="display: block;">
-                        <div style="text-align: left; display: inline-block; float: left;">Pfizer</div>
-                        <div style="display: inline-block; font-size: 10px;">......................................</div>
-                        <div style="text-align: right; display: inline-block; float: right;">02</div>
-                    </div>
-                    <div style="display: block;">
-                        <div style="text-align: left; display: inline-block; float: left;">Daikin</div>
-                        <div style="display: inline-block; font-size: 10px;">......................................</div>
-                        <div style="text-align: right; display: inline-block; float: right;">03</div>
-                    </div>
-                    <div style="display: block;">
-                        <div style="text-align: left; display: inline-block; float: left;">Traphaco</div>
-                        <div style="display: inline-block; font-size: 10px;">...................................</div>
-                        <div style="text-align: right; display: inline-block; float: right;">04</div>
-                    </div>
-                    <div style="display: block;">
-                        <div style="text-align: left; display: inline-block; float: left;">Cozz</div>
-                        <div style="display: inline-block; font-size: 10px;">.........................................</div>
-                        <div style="text-align: right; display: inline-block; float: right;">05</div>
-                    </div>
-                    <div style="display: block;">
-                        <div style="text-align: left; display: inline-block; float: left;">Nam Ngu</div>
-                        <div style="display: inline-block; font-size: 10px;">....................................</div>
-                        <div style="text-align: right; display: inline-block; float: right;">06</div>
-                    </div>
-                    <div style="display: block;">
-                        <div style="text-align: left; display: inline-block; float: left;text-decoration: line-through;">Sumikura</div>
-                        <div style="display: inline-block; font-size: 10px;text-decoration: line-through;">...................................</div>
-                        <div style="text-align: right; display: inline-block; float: right; text-decoration: line-through;">07</div>
-                    </div>
-                    <div style="display: block; ">
-                        <div style="text-align: left; display: inline-block; float: left; text-decoration: line-through;">Eco Resident</div>
-                        <div style="display: inline-block; font-size: 10px;text-decoration: line-through;">............................</div>
-                        <div style="text-align: right; display: inline-block; float: right; text-decoration: line-through;">08</div>
-                    </div>
-                </div>
-                <div>
-                    <div style="box-sizing: border-box; border: 0.5px solid coral; font-size: 22px; padding: 10px 0px; text-align: center; font-weight: bold; letter-spacing: 5px; margin-top: 5mm;">CRISPER DRAWER</div>
-                    <div style="box-sizing: border-box; border: 0.5px; font-size: 16px; font-weight: normal; letter-spacing: 1px; padding: 10px 10px; text-align: justify;">This drawer contains personal illustrations and experimental work. It serves as a space for exploration, where I apply, adapt, and push the techniques I've learned throughout my professional practice to discover new creative possibilities.</div>
-                </div>
-            </div>
-        </div>
-        <div class = "cover_right" style="display: grid; grid-template-rows: 10mm 307mm;">
-            <div class = "cover_right_start" style="font-family:Rock Salt; color:  #002b59; font-size: 13px; padding: 0px 15px; text-align: left; letter-spacing: 2px;">
-                <div class="cover_right_start1" style="width: 200mm; height: 25mm; background-image: url(img/yellow.png); padding: 7px 20px; line-height: 26px;">
-                    <div>Hello there, please don't let me fall behind<br>your curiosity brings my world back to color, and all it takes is a hover</div></div></div>
-            <div class = "cover_right_end" style="display: grid; grid-template-rows: 41mm 41mm 164mm 41mm;">
-                <div class="basic_information" style="display: grid; grid-template-columns: 90mm 110mm;">
-                    <div ><span style="font-size: 24px;font-weight: bold; letter-spacing: 3px; margin: 0px 0px;">PHAN HONG NGOC GIAO</span><br><br><span style="font-weight: bold;font-size: 16px; margin: 0px 0px;">Industrial and Graphic Designer</span></div>
-                    <div><div style="padding: 0px 10px; text-align: right;">
-                        <a class="connection" href="mailto:giaophng26@gmail.com" target="_blank" rel="noopener noreferrer">giaophng26@gmail.com</a><br>
-                        <a class="connection">+84 937 565 749</a><br>
-                        <a class="connection" href="https://www.linkedin.com/in/phan-giao/" target="_blank" rel="noopener noreferrer">linkedin.com/in/phan-giao</a><br>
-                        <a class="connection" href="https://www.behance.net/phangiao" target="_blank" rel="noopener noreferrer">behance.net/phangiao</a></div></div>
-                </div>
-            <div class="education" style="display: grid; grid-template-columns: 35mm 55mm 110mm;">
-                    <div ><hr><span style="font-weight: bold;;">EDUCATION</span></div>
-                    <div class="column2"><hr>
-                        <div style="padding: 0px 10px;">
-                            <span style="font-weight: bold;">Ho Chi Minh University of Architecture</span><br><br>Bachelor's degree in Industrial Design</div>
+                    <div class="cover_right_end" style="display: grid; grid-template-rows: 41mm 41mm 164mm 41mm;">
+                        <div class="basic_information" style="display: grid; grid-template-columns: 90mm 110mm;">
+                            <div><span
+                                    style="font-size: 24px;font-weight: bold; letter-spacing: 3px; margin: 0px 0px;">PHAN
+                                    HONG NGOC GIAO</span><br><br><span
+                                    style="font-weight: bold;font-size: 16px; margin: 0px 0px;">Industrial and Graphic
+                                    Designer</span></div>
+                            <div>
+                                <div style="padding: 0px 10px; text-align: right;">
+                                    <a class="connection" href="mailto:giaophng26@gmail.com" target="_blank"
+                                        rel="noopener noreferrer">giaophng26@gmail.com</a><br>
+                                    <a class="connection">+84 937 565 749</a><br>
+                                    <a class="connection" href="https://www.linkedin.com/in/phan-giao/" target="_blank"
+                                        rel="noopener noreferrer">linkedin.com/in/phan-giao</a><br>
+                                    <a class="connection" href="https://www.behance.net/phangiao" target="_blank"
+                                        rel="noopener noreferrer">behance.net/phangiao</a>
+                                </div>
+                            </div>
                         </div>
-                    <div ><hr>
-                        <div style="padding:0px  10px; text-align: justify;">
-                            <span style="font-weight: bold;">September 2019 - July 2023</span><br><br><span style="background-image: url(img/neon.png);">Honors: Graduation Thesis Salutatorian</span></div>
+                        <div class="education" style="display: grid; grid-template-columns: 35mm 55mm 110mm;">
+                            <div>
+                                <hr><span style="font-weight: bold;;">EDUCATION</span>
+                            </div>
+                            <div class="column2">
+                                <hr>
+                                <div style="padding: 0px 10px;">
+                                    <span style="font-weight: bold;">Ho Chi Minh University of
+                                        Architecture</span><br><br>Bachelor's degree in Industrial Design
+                                </div>
+                            </div>
+                            <div>
+                                <hr>
+                                <div style="padding:0px  10px; text-align: justify;">
+                                    <span style="font-weight: bold;">September 2019 - July 2023</span><br><br><span
+                                        style="background-image: url(imgwebp/neon.webp);">Honors: Graduation Thesis
+                                        Salutatorian</span>
+                                </div>
+                            </div>
                         </div>
-                </div>
-            <div class="experiences"  style="display: grid; grid-template-rows: 1fr 1fr 1fr 1fr;">
-                <div class="experience" >
-                    <div ><hr><span style="font-weight: bold;;">EXPERIENCES</span></div>
-                    <div class="column2" ><hr>
-                        <div style="padding: 0px 10px;">
-                            <span style="font-weight: bold;">Networld Solutions Asia</span><br><br>Graphic Designer</div>
-                        </div>
-                    <div ><hr>
-                        <div style="padding: 0px 10px; text-align: justify;">
-                            <span style="font-weight: bold;">November 2025 - June 2026</span><br><br>Designed social media visuals and marketing assets for agency clients. Collaborated with the creative team to develop key visuals and campaign materials.</div>
-                        </div>
-                </div>
-                <div class="experience" >
-                    <div ></div>
-                    <div class="column2" ><hr>
-                        <div style="padding: 0px 10px;">
-                            <span style="font-weight: bold;">Long Beach Pearl Manufacturer</span><br><br>Product Planner</div>
-                        </div>
-                    <div ><hr>
-                        <div style="padding: 0px 10px; text-align: justify;">
-                            <span style="font-weight: bold;">May 2025 - October 2025</span><br><br>Developed jewelry collection concepts and production plans. Worked with design and manufacturing teams to deliver products from concept to production.</div>
-                        </div>
-                </div>
-                <div class="experience" >
-                    <div ></div>
-                    <div class="column2" ><hr>
-                        <div style="padding: 0px 10px;">
-                            <span style="font-weight: bold;;">LR-TEK</span><br><br>Graphic Designer</div>
-                        </div>
-                    <div ><hr>
-                        <div style="padding: 0px 10px; text-align: justify;">
-                            <span style="font-weight: bold;">February 2024 - February 2025</span><br><br>Designed branding, marketing, and social media assets for international clients. Collaborated with cross-functional teams to deliver creative materials and presentations.</div>
-                        </div>
-                </div>
-                <div class="experience" >
-                    <div ></div>
-                    <div class="column2" ><hr>
-                        <div style="padding: 0px 10px;">
-                            <span style="font-weight: bold;;">Phu Nhuan Jewelry Joint Stock Company</span><br><br>Jewelry Creative Designer</div>
-                        </div>
-                    <div ><hr>
-                        <div style="padding: 0px 10px; text-align: justify;">
-                            <span style="font-weight: bold;">June 2022 - August 2023</span><br><br>Developed jewelry concepts and technical design assets for commercial collections. Worked with cross-functional teams to bring products from concept to production.</div>
-                        </div>
-                </div>
-            </div>
-            <div class="expertise" style="display: grid; grid-template-columns: 35mm 55mm 55mm  55mm">
-                <div ><hr><span style="font-weight: bold;">EXPERTISE</span></div>
-                <div ><hr>
-                    <div style="padding: 0px 10px;">
-                        <span style="font-weight: bold;">Languages</span><br><br>Native Vietnamese <br> Fluent English <br> Intermediate Korean <br> Basic Python, Html, Css, Js</div>
-                    </div>
-                <div ><hr>
-                    <div style="padding: 0px 10px;">
-                        <span style="font-weight: bold;">Soft skills</span><br><br>Creative Thinking<br>Problem Solving<br>Experimenting<br>Trend Forecasting<br>Storyboarding </div>
-                    </div>
-                <div ><hr>
-                    <div style="padding: 0px 10px;">
-                        <span style="font-weight: bold;">Hard skills</span><br><br>Adobe Photoshop, Adobe Illustrator, Adobe Indesign, Rhino, Blender</div>
-                    </div>
-            </div>
-            </div>
-            <div class="fridge_zone">
-                <img class="fridge2" src="img/fridge.png" style="width: 220mm;">
-                <div class="fridge-grid">
-                    <div class="freezerc"></div>
-                    <div class="fridgec" style=" display: grid; grid-template-rows: 36mm 36mm 60mm; row-gap: 7mm;">
-                        <div style="display: grid; grid-template-columns: 24mm 26mm 35mm 50mm 1fr;">
-                            <div></div>
-                            <div class="objects" style="background-image: url(img/pfizer.png);"></div>
-                            <div class="objects" style="background-image: url(img/hph.png);"></div>
-                            <div class="objects" style="background-image: url(img/daikin.png);"></div>
-                            <div></div>
-                        </div>
-                        <div  style="display: grid; grid-template-columns: 22mm 53mm 53mm 1fr;">
-                            <div></div>
-                            <div class="objects" style="background-image: url(img/cozz.png);"></div>
-                            <div class="objects" style="background-image: url(img/traphaco.png);"></div>
-                            <div></div>
-                        </div>
-                        <div  style="display: grid; grid-template-columns: 36mm 23mm 60mm 1fr;">
-                            <div></div>
-                            <div style="display: grid; grid-template-rows: 5mm 60mm 5mm;">
+                        <div class="experiences" style="display: grid; grid-template-rows: 1fr 1fr 1fr 1fr;">
+                            <div class="experience">
+                                <div>
+                                    <hr><span style="font-weight: bold;;">EXPERIENCES</span>
+                                </div>
+                                <div class="column2">
+                                    <hr>
+                                    <div style="padding: 0px 10px;">
+                                        <span style="font-weight: bold;">Networld Solutions Asia</span><br><br>Graphic
+                                        Designer
+                                    </div>
+                                </div>
+                                <div>
+                                    <hr>
+                                    <div style="padding: 0px 10px; text-align: justify;">
+                                        <span style="font-weight: bold;">November 2025 - June
+                                            2026</span><br><br>Designed social media visuals and marketing assets for
+                                        agency clients. Collaborated with the creative team to develop key visuals and
+                                        campaign materials.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="experience">
                                 <div></div>
-                                <div class="objects" style="background-image: url(img/nam\ ngư.png);"></div>
+                                <div class="column2">
+                                    <hr>
+                                    <div style="padding: 0px 10px;">
+                                        <span style="font-weight: bold;">Long Beach Pearl
+                                            Manufacturer</span><br><br>Product Planner
+                                    </div>
+                                </div>
+                                <div>
+                                    <hr>
+                                    <div style="padding: 0px 10px; text-align: justify;">
+                                        <span style="font-weight: bold;">May 2025 - October 2025</span><br><br>Developed
+                                        jewelry collection concepts and production plans. Worked with design and
+                                        manufacturing teams to deliver products from concept to production.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="experience">
                                 <div></div>
+                                <div class="column2">
+                                    <hr>
+                                    <div style="padding: 0px 10px;">
+                                        <span style="font-weight: bold;;">LR-TEK</span><br><br>Graphic Designer
+                                    </div>
+                                </div>
+                                <div>
+                                    <hr>
+                                    <div style="padding: 0px 10px; text-align: justify;">
+                                        <span style="font-weight: bold;">February 2024 - February
+                                            2025</span><br><br>Designed branding, marketing, and social media assets for
+                                        international clients. Collaborated with cross-functional teams to deliver
+                                        creative materials and presentations.
+                                    </div>
+                                </div>
                             </div>
-                            <div style="display: grid; grid-template-rows: 5mm 30mm 30mm 1mm;">
+                            <div class="experience">
                                 <div></div>
-                                <div class="object1 sumikura"></div>
-                                <div class="object1 eco"></div>
+                                <div class="column2">
+                                    <hr>
+                                    <div style="padding: 0px 10px;">
+                                        <span style="font-weight: bold;;">Phu Nhuan Jewelry Joint Stock
+                                            Company</span><br><br>Jewelry Creative Designer
+                                    </div>
+                                </div>
+                                <div>
+                                    <hr>
+                                    <div style="padding: 0px 10px; text-align: justify;">
+                                        <span style="font-weight: bold;">June 2022 - August 2023</span><br><br>Developed
+                                        jewelry concepts and technical design assets for commercial collections. Worked
+                                        with cross-functional teams to bring products from concept to production.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="expertise" style="display: grid; grid-template-columns: 35mm 55mm 55mm  55mm">
+                            <div>
+                                <hr><span style="font-weight: bold;">EXPERTISE</span>
+                            </div>
+                            <div>
+                                <hr>
+                                <div style="padding: 0px 10px;">
+                                    <span style="font-weight: bold;">Languages</span><br><br>Native Vietnamese <br>
+                                    Fluent English <br> Intermediate Korean <br> Basic Python, Html, Css, Js
+                                </div>
+                            </div>
+                            <div>
+                                <hr>
+                                <div style="padding: 0px 10px;">
+                                    <span style="font-weight: bold;">Soft skills</span><br><br>Creative
+                                    Thinking<br>Problem Solving<br>Experimenting<br>Trend Forecasting<br>Storyboarding
+                                </div>
+                            </div>
+                            <div>
+                                <hr>
+                                <div style="padding: 0px 10px;">
+                                    <span style="font-weight: bold;">Hard skills</span><br><br>Adobe Photoshop, Adobe
+                                    Illustrator, Adobe Indesign, Rhino, Blender
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fridge_zone">
+                        <img class="fridge2" src="imgwebp/fridge.webp" style="width: 220mm;">
+                        <div class="fridge-grid">
+                            <div class="freezerc"></div>
+                            <div class="fridgec"
+                                style=" display: grid; grid-template-rows: 36mm 36mm 60mm; row-gap: 7mm;">
+                                <div style="display: grid; grid-template-columns: 24mm 26mm 35mm 50mm 1fr;">
+                                    <div></div>
+                                    <div class="objects" style="background-image: url(imgwebp/pfizer.webp);"></div>
+                                    <div class="objects" style="background-image: url(imgwebp/hph.webp);"></div>
+                                    <div class="objects" style="background-image: url(imgwebp/daikin.webp);"></div>
+                                    <div></div>
+                                </div>
+                                <div style="display: grid; grid-template-columns: 22mm 53mm 53mm 1fr;">
+                                    <div></div>
+                                    <div class="objects" style="background-image: url(imgwebp/cozz.webp);"></div>
+                                    <div class="objects" style="background-image: url(imgwebp/traphaco.webp);"></div>
+                                    <div></div>
+                                </div>
+                                <div style="display: grid; grid-template-columns: 36mm 23mm 60mm 1fr;">
+                                    <div></div>
+                                    <div style="display: grid; grid-template-rows: 5mm 60mm 5mm;">
+                                        <div></div>
+                                        <div class="objects" style="background-image: url(imgwebp/nam\ ngư.webp);"></div>
+                                        <div></div>
+                                    </div>
+                                    <div style="display: grid; grid-template-rows: 5mm 30mm 30mm 1mm;">
+                                        <div></div>
+                                        <div class="object1 sumikura"></div>
+                                        <div class="object1 eco"></div>
+                                        <div></div>
+                                    </div>
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="drawerc" style=" display: grid; grid-template-rows: 30mm 20mm;">
+                                <div class="apple"></div>
+                                <div class="apple" style=" display: grid; grid-template-columns: 24mm 1fr;">
+                                    <div class="objects"><img src="imgwebp/apple.webp" style="height:32.5mm;"></div>
+                                    <div class="objects"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style=" display: grid; grid-template-rows: 330mm 40mm 200mm;">
+                    <div style="height: 350mm;"></div>
+                    <div class="calendar"
+                        style="height: 75mm;background-image: url(imgwebp/calendar.webp); width: 125mm; background-size: auto 100%;">
+                    </div>
+                    <div class="interior_zone" style=" height: 200mm;">
+                        <div class="plant" style="width: 145mm;height: 250mm;">
+                            <div class="interior-grid" style="display: grid; grid-template-rows: 200mm 25mm 57mm;">
                                 <div></div>
-                            </div>
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="drawerc" style=" display: grid; grid-template-rows: 30mm 20mm;">
-                        <div class="apple"></div>
-                        <div class="apple" style=" display: grid; grid-template-columns: 24mm 1fr;">
-                           <div class="objects"><img src="img/apple.png" style="height:32.5mm;"></div>
-                           <div class="objects"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div style="height: 350mm;"></div>
-            <div class="calendar" style="height: 75mm;background-image: url(img/calendar.png);"></div>
-            <div class="interior_zone">
-                <div class="plant">
-                    <div class="interior-grid" style="display: grid; grid-template-rows: 100mm 95mm 57mm;">
-                        <div></div>
-                        <div style="display: grid; grid-template-columns: 1fr 1fr;">
-                            <div class="thread" style="background-image:url(img/thread.png);"></div>
-                            <div></div>
-                        </div>
-                        <div style="display: grid; grid-template-columns: 5mm 1fr;">
-                            <div></div>
-                            <div class="shoes" style="background-image: url(img/shoes.png);"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-<!-- COVER 1 -->
-    <div class="cover1" style="display: grid; grid-template-columns: 1fr 130mm 195mm 1fr; align-items:start; overflow-x: hidden;">
-        <div></div>
-        <div style="display: grid; grid-template-rows: 420mm 10mm;">
-            <div></div>
-            <div class="bird" style="height: 27.5mm; background-image: url(img/bird\ left.png); background-repeat: no-repeat; background-position: left bottom; background-size: 27.5% auto; filter: drop-shadow(8px 8px 8px rgba(0,0,0,0.35));transition: all 1s ease-in-out;"></div>
-        </div>
-        <div style="display: grid; grid-template-rows: 407.5mm 10mm;">
-            <div></div>
-            <div class="snake" style="height: 25mm; background-image: url(img/snake.png); background-repeat: no-repeat; background-position: left bottom; background-size: 100% auto;"></div>
-        </div>
-        <div></div>
-    </div>
-<!-- COVER 2 -->
-    <div class="cover2" style="display: grid; grid-template-columns: 1fr 330mm 1fr; align-items:start; overflow-x: hidden;">
-        <input type="checkbox" id="lamp-trigger" class="lamp-checkbox" style="display: none;">
-         <label for="lamp-trigger" class="lamp-container-label">
-             <div class="lamptext" style="height: 175mm;display: grid; grid-template-rows: 10mm 50mm;">
-                <div class="lampt" style="height: 175mm; background-size: 115% auto; background-repeat: no-repeat; background-position: bottom;"></div>
-                <div class="ltext" style="font-family: 'Rock Salt', cursive; display: flex; align-items: flex-end; text-align: center; margin-left: 15mm; filter: drop-shadow(0px 0px 0px rgba(0,0,0,0)); height: 100mm; color: #002b59; line-height: 28px;"> I made this<br> for fun,<br> please don't judge</div>
-            </div>
-        </label>
-        <div style="height: 224mm; display: grid; grid-template-rows: 15mm 220mm;">
-            <div style="font-family:Rock Salt; color:  #002b59; font-size: 13px; padding: 0px 15px; text-align: left; letter-spacing: 2px; margin-top: 5mm; margin-left:40mm;">
-                <div class="cover_right_start1" style="width: 125mm; height: 75mm; background-image: url(img/neon.png); padding: 7px 20px; line-height: 26px;">
-                    <div>Swipe right to glance, swipe down to dance :></div>
-                </div>
-            </div>
-            <div class="fridge_compartments">
-            <div class="compartment">
-        <!-- HPH -->
-                <div class="tray" style="background-image: url(img/innerhph.png.jpg); background-repeat: no-repeat; background-size: 100% auto;">
-                    <div class="stage">
-                        <div style=" display: grid; grid-template-columns: 110mm 1fr 60.5mm;">
-                            <div style="padding-top: 5mm;">
-                                 <div class="logo" style="background-image: url(img/hph.png); height: 45mm; background-position: center;"></div>
-                            </div>
-                            <div style="padding: 7.5mm 0mm; font-weight: bold; font-size: 15px; letter-spacing: 1px;"><span style="font-size: 24px; letter-spacing: 3px; font-weight: bold;;">HANH PHUC HOSPITAL</span><br><br>- Social Media Assets
-                                <br>- Key Visuals
-                                <br>- Marketing & Campaign Materials</div>
-                            <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center; padding-bottom: 3mm;">
-                                <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe right</div>
-                                <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/left-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: 50% auto; display: flex; align-items: center; justify-content: center;"></div>
-                            </div>
-                        </div>
-                        <div class="fridge_compartments1">
-                            <div class="compartment1" style="display: grid; grid-row: 125mm 30mm;">
-                                <div class="tray1" >
-                                        <div style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
-                                            <div class="spham" style="background-image: url(hph/POST\ 36.jpg);width: 100mm; height: 100mm;"></div>
-                                            <div class="spham" style="background-image: url(hph/39.png);width: 100mm; height: 100mm;"></div>
-                                            <div class="spham" style="background-image: url(hph/POST\ 34_R3.jpg);width: 100mm; height: 100mm;"></div>
-                                        </div>
-                                    </div>
-                                <div style=" display: grid; grid-template-columns: 60mm 1fr">
-                                    <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                        <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
-                                        <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;"></div>
-                                    </div>
-                                    <div></div>
-                                </div>
-                                <div class="tray1" >
-                                        <div style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
-                                            <div class="spham" style="background-image: url(hph/63.png);width: 100mm; height: 100mm;"></div>
-                                            <div class="spham" style="background-image: url(hph/POST\ 56.jpg);width: 100mm; height: 100mm;"></div>
-                                            <div class="spham" style="background-image: url(hph/53.png);width: 100mm; height: 100mm;"></div>
-                                        </div>
-                                    </div>
-                                <div style=" display: grid; grid-template-columns: 60mm 1fr">
-                                    <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                        <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
-                                        <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;"></div>
-                                    </div>
-                                    <div></div>
-                                </div>
-                                <div class="tray1" >
-                                        <div style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
-                                            <div class="spham" style="background-image: url(hph/POST\ 44_R1.jpg);width: 100mm; height: 100mm;"></div>
-                                            <div class="spham" style="background-image: url(hph/POST\ 44_ĐA\ KHOA_R1.jpg);width: 100mm; height: 100mm;"></div>
-                                            <div class="spham" style="background-image: url(hph/POST\ 44_NGOẠI\ KHOA_R1.jpg);width: 100mm; height: 100mm;"></div>
-                                        </div>
-                                    </div>
-                                <div style=" display: grid; grid-template-columns: 60mm 1fr">
-                                    <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                        <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
-                                        <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;"></div>
-                                    </div>
-                                    <div></div>
-                                </div>
-                                <div class="tray1" >
-                                        <div style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
-                                            <div class="spham" style="background-image: url(hph/POST\ 44_IVF_R1.jpg);width: 100mm; height: 100mm;"></div>
-                                            <div class="spham" style="background-image: url(hph/POST\ 44_SẢN\ PHỤ\ KHOA_R1.jpg);width: 100mm; height: 100mm;"></div>
-                                            <div class="spham" style="background-image: url(hph/POST\ 44_NHI\ KHOA_R1.jpg);width: 100mm; height: 100mm;"></div>
-                                        </div>
-                                    </div>
-                                <div style=" display: grid; grid-template-columns: 60mm 1fr">
-                                    <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                        <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
-                                        <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;"></div>
-                                    </div>
-                                    <div></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        <!-- PFIZER -->
-                <div class="tray" style="background-image: url(img/innerpfizer.png.jpg); background-repeat: no-repeat; background-size: 100% auto;">
-                    <div class="stage">
-                        <div style=" display: grid; grid-template-columns: 110mm 1fr 60.5mm;">
-                            <div style="padding-top: 5mm;">
-                                 <div class="logo" style="background-image: url(img/pfizer.png); height: 45mm; background-position: center;"></div>
-                            </div>
-                            <div style="padding: 7.5mm 0mm; font-weight: bold; font-size: 15px; letter-spacing: 1px;"><span style="font-size: 24px; letter-spacing: 3px; font-weight: bold;;">PFIZER</span><br><br>- Social Media Assets
-                                <br>- Key Visuals
-                                <br>- Marketing & Campaign Materials</div>
-                            <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center; padding-bottom: 3mm;">
-                                <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe right</div>
-                                <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/left-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: 50% auto; display: flex; align-items: center; justify-content: center;"></div>
-                            </div>
-                        </div>
-                        <div class="fridge_compartments1">
-                            <div class="compartment1" style="display: grid; grid-row: 125mm 30mm;">
-                                <div class="tray1" >
-                                    <div style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
-                                        <div class="spham" style="background-image: url(PFIZER/2.png);width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(PFIZER/4.png);width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(PFIZER/5.png);width: 100mm; height: 100mm;"></div>
+                                <div style="display: flex; align-content: flex-end;">
+                                    <div class="thread"
+                                        style="background-image:url(imgwebp/thread.webp); width: 30mm; height: 45mm; margin-left: 15mm;">
                                     </div>
                                 </div>
-                                <div style=" display: grid; grid-template-columns: 60mm 1fr">
-                                    <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                        <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
-                                        <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;"></div>
+                                <div>
+                                    <div class="shoes"
+                                        style="background-image: url(imgwebp/shoes.webp); width: 80mm; height: 80mm; margin-left: 5mm;">
                                     </div>
-                                    <div></div>
-                                </div>
-                                <div class="tray1" >
-                                    <div style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
-                                        <div class="spham" style="background-image: url(PFIZER/2.png);width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(PFIZER/2.1.jpg);width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(PFIZER/2.2.jpg);width: 100mm; height: 100mm;"></div>
-                                    </div>
-                                </div>
-                                <div style=" display: grid; grid-template-columns: 60mm 1fr">
-                                    <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                        <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
-                                        <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;"></div>
-                                    </div>
-                                    <div></div>
-                                </div>
-                                <div class="tray1" >
-                                    <div style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
-                                        <div class="spham" style="width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style=" background-image: url(PFIZER/2.3.jpg);width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(PFIZER/2.4.jpg);width: 100mm; height: 100mm;"></div>
-                                    </div>
-                                </div>
-                                <div style=" display: grid; grid-template-columns: 60mm 1fr">
-                                    <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                        <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
-                                        <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;"></div>
-                                    </div>
-                                    <div></div>
-                                </div>
-                                <div class="tray1" >
-                                    <div style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
-                                        <div class="spham" style="background-image: url(PFIZER/4.png);width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(PFIZER/4.1.jpg);width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(PFIZER/4.2.jpg);width: 100mm; height: 100mm;"></div>
-                                    </div>
-                                </div>
-                                <div style=" display: grid; grid-template-columns: 60mm 1fr">
-                                    <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                        <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
-                                        <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;"></div>
-                                    </div>
-                                    <div></div>
-                                </div>
-                                <div class="tray1" >
-                                    <div style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
-                                        <div class="spham" style="width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style=" background-image: url(PFIZER/4.3.jpg);width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(PFIZER/4.4.jpg);width: 100mm; height: 100mm;"></div>
-                                    </div>
-                                </div>
-                                <div style=" display: grid; grid-template-columns: 60mm 1fr">
-                                    <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                        <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
-                                        <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;"></div>
-                                    </div>
-                                    <div></div>
-                                </div>
-                                <div class="tray1" >
-                                    <div style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
-                                        <div class="spham" style="background-image: url(PFIZER/5.png);width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(PFIZER/5.1.jpg);width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(PFIZER/5.2.jpg);width: 100mm; height: 100mm;"></div>
-                                    </div>
-                                </div>
-                                <div style=" display: grid; grid-template-columns: 60mm 1fr">
-                                    <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                        <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
-                                        <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;"></div>
-                                    </div>
-                                    <div></div>
-                                </div>
-                                <div class="tray1" >
-                                    <div style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
-                                        <div class="spham" style="width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style=" background-image: url(PFIZER/5.3.jpg);width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(PFIZER/5.4.jpg);width: 100mm; height: 100mm;"></div>
-                                    </div>
-                                </div>
-                                <div style=" display: grid; grid-template-columns: 60mm 1fr">
-                                    <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                        <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
-                                        <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;"></div>
-                                    </div>
-                                    <div></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        <!-- DAIKIN -->
-                <div class="tray" style="background-image: url(img/innerdaikin.png.jpg); background-repeat: no-repeat; background-size: 100% auto;">
-                    <div class="stage">
-                        <div style=" display: grid; grid-template-columns: 110mm 1fr 60.5mm;">
-                            <div style="padding-top: 5mm;">
-                                 <div class="logo" style="background-image: url(img/daikin.png); height: 45mm; background-position: center;"></div>
-                            </div>
-                            <div style="padding: 7.5mm 0mm; font-weight: bold; font-size: 15px; letter-spacing: 1px;"><span style="font-size: 24px; letter-spacing: 3px; font-weight: bold;;">DAIKIN</span><br><br>- Social Media Assets
-                                <br>- Key Visuals
-                                <br>- Marketing & Campaign Materials</div>
-                            <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center; padding-bottom: 3mm;">
-                                <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe right</div>
-                                <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/left-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: 50% auto; display: flex; align-items: center; justify-content: center;"></div>
-                            </div>
-                        </div>
-                        <div class="fridge_compartments1">
-                            <div class="compartment1" style="display: grid; grid-row: 125mm 30mm;">
-                                <div class="tray1" >
-                                    <div style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
-                                        <div class="spham" style="background-image: url(DAIKIN/4.png);width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(DAIKIN/P5.jpg);width: 100mm; height: 100mm;"></div>
-                                        <div class="carousel" style=" width:100mm; height: 100mm;">
-                                            <div class="cardlong" style="background-image: url(DAIKIN/a10.jpg);"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div style=" display: grid; grid-template-columns: 60mm 1fr">
-                                    <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                        <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
-                                        <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;"></div>
-                                    </div>
-                                    <div></div>
-                                </div>
-                                <div class="tray1" >
-                                    <div style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
-                                        <div class="spham" style="background-image: url(DAIKIN/4.png);width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(DAIKIN/41.png);width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(DAIKIN/42.png);width: 100mm; height: 100mm;"></div>
-                                    </div>
-                                </div>
-                                <div style=" display: grid; grid-template-columns: 60mm 1fr">
-                                    <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                        <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
-                                        <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;"></div>
-                                    </div>
-                                    <div></div>
-                                </div>
-                                <div class="tray1" >
-                                    <div style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
-                                        <div class="spham" style="width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(DAIKIN/43.png);width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(DAIKIN/44.png);width: 100mm; height: 100mm;"></div>
-                                    </div>
-                                </div>
-                                <div style=" display: grid; grid-template-columns: 60mm 1fr">
-                                    <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                        <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
-                                        <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;"></div>
-                                    </div>
-                                    <div></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        <!-- COZZ TRAPHACO NAM NGU-->
-                <div class="tray" style="background-image: url(img/innersum.png); background-repeat: no-repeat; background-size: 100% auto;">
-                    <div class="stage">
-                        <div style=" display: grid; grid-template-columns: 110mm 110mm 110mm;">
-                            <div style="padding-top: 5mm;">
-                                 <div class="logo" style="background-image: url(img/cozz.png); height: 45mm; background-position: center;"></div>
-                            </div>
-                            <div style="padding-top: 5mm;">
-                                 <div class="logo" style="background-image: url(img/traphaco.png); height: 45mm; background-position: center;"></div>
-                            </div>
-                            <div style="padding-top: 5mm;">
-                                 <div class="logo" style="background-image: url(img/namngurotae.png); height: 45mm; background-position: bottom left;background-size: 75% auto;"></div>
-                            </div>
-                        </div>
-                        <div class="fridge_compartments1">
-                            <div class="compartment1" style="display: grid; grid-row:  125mm 30mm;">
-                                <div class="tray1" >
-                                    <div style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
-                                        <div class="spham" style="background-image: url(COZZ/POST\ 1\ _\ R5a.jpg);width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(TRAPHACO/Artboard\ 1.jpg);width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(NAMNGU/Artboard\ 1.jpg);width: 100mm; height: 100mm;"></div>
-                                    </div>
-                                </div>
-                                <div style=" display: grid; grid-template-columns: 60mm 1fr">
-                                    <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                        <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
-                                        <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;"></div>
-                                    </div>
-                                    <div></div>
-                                </div>
-                                <div class="tray1" >
-                                    <div style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
-                                        <div class="spham" style="width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(TRAPHACO/P4.jpg);width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(NAMNGU/Artboard\ 2.jpg);width: 100mm; height: 100mm;"></div>
-                                    </div>
-                                </div>
-                                <div style=" display: grid; grid-template-columns: 60mm 1fr">
-                                    <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                        <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
-                                        <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;"></div>
-                                    </div>
-                                    <div></div>
-                                </div>
-                                <div class="tray1" >
-                                    <div style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
-                                        <div class="spham" style="width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="background-image: url(TRAPHACO/traphacob_R1.jpg);width: 100mm; height: 100mm;"></div>
-                                        <div class="spham" style="width: 100mm; height: 100mm;"></div>
-                                    </div>
-                                </div>
-                                <div style=" display: grid; grid-template-columns: 60mm 1fr">
-                                    <div style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                                        <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
-                                        <div  style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;"></div>
-                                    </div>
-                                    <div></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-            
-        </div>
-        <div class="clock" style="height: 100mm; background-size: 60% auto; background-repeat: no-repeat; background-position: right bottom;"></div>
-        <!-- DIV HÌNH ARTWORKS -->
-        <div></div>
-        <div style="height: 200mm;display: grid; grid-template-rows: 19mm 220mm; margin-left: 2.5mm;">
-            <div class = "cover_right_start" style="font-family:Rock Salt; color:  #002b59; font-size: 13px; padding: 0px 15px; text-align: left; letter-spacing: 2px; margin-left: 70mm;">
-                <div class="cover_right_start1" style="width: 240mm; height: 17.5mm; background-image: url(img/lime.png); padding: 7px 20px; line-height: 26px;">
-                    <div>The main compartment is orderly, but the crisper drawer is pure experimental mess.<br>To save you the trouble of rummaging through, I’ve spread it all out right on the floor :'></div></div></div>
-            <div class="gallery-grid">
-                <div class="gallery-item">
-                    <img class="draw" src="img/60E9C281-8FF0-4E8D-B463-5166B96FF7DE.jpg" alt="Art Piece">
-                    <div class="caption">Simpatico, 2025. Experiment with Ps gradient map.</div>
-                </div>
-                <div class="gallery-item">
-                    <img class="draw" src="img/IMG_2975.PNG" alt="Art Piece">
-                    <div class="caption">Mendicant, 2025. Experiment with Ps gradient map.</div>
-                </div>
-                <div class="gallery-item">
-                    <img class="draw" src="img/IMG_3098.JPG" alt="Art Piece">
-                    <div class="caption">Radish, 2025. Experiment with Ps gradient map.</div>
-                </div>
-                <div class="gallery-item">
-                    <img class="draw" src="img/pettit.png" alt="Art Piece">
-                    <div class="caption">Le Pettit Prince, 2026.</div>
-                </div>
-                <div class="gallery-item">
-                    <img class="draw" src="img/IMG_2901.JPG" alt="Art Piece">
-                    <div class="caption">Luminousity, 2025. Experiment with Ps gradient map.</div>
-                </div>
-                <div class="gallery-item">
-                    <img class="draw" src="img/fish.png" alt="Art Piece">
-                    <div class="caption">Ambrosia, 2026.</div>
-                </div>
-                <div class="gallery-item">
-                    <img class="draw" src="img/IMG_2900.JPG" alt="Art Piece">
-                    <div class="caption">Dessicated, 2025. Experiment with Ps gradient map.</div>
-                </div>
-                <div class="gallery-item">
-                    <img class="draw" src="img/Untitled_Artwork.png" alt="Art Piece">
-                    <div class="caption">Equanimity, 2025.</div>
-                </div>
-                <div class="gallery-item">
-                    <img class="draw" src="img/IMG_2866.PNG" alt="Art Piece">
-                    <div class="caption">Devoutness, 2025. Experiment with Ps gradient map.</div>
-                </div>
-                <div class="gallery-item">
-                    <img class="draw" src="img/IMG_2872.PNG" alt="Art Piece">
-                    <div class="caption">Alienation, 2025. Experiment with Ps gradient map.</div>
-                </div>
-                <!--<div class="gallery-item">
-                    <img class="draw" src="img/IMG_7469.JPG" alt="Art Piece">
-                    <div class="caption">KAA Gallery, 2023.</div>
-                </div>
-                <div class="gallery-item">
-                    <img class="draw" src="img/IMG_7467.JPG" alt="Art Piece">
-                    <div class="caption">KAA Gallery, 2023.</div>
-                </div>-->
-                <div class="gallery-item">
-                    <img class="draw" src="img/A8903BBD-F4F3-4F5B-AAAB-CC8451482851.jpg" alt="Art Piece">
-                    <div class="caption">Bông mít, 2022.</div>
-                </div>
-                <!--<div class="gallery-item">
-                    <img class="draw" src="img/image.jpeg" alt="Art Piece">
-                    <div class="caption">Ping pong squad, 2022.</div>
-                </div>-->
-                <div class="gallery-item">
-                    <img class="draw" src="img/original.gif" alt="Art Piece">
-                    <div class="caption">Freakin' fridge, 2026.</div>
-                </div>
-                <div class="gallery-item">
-                    <img class="draw" src="SUMIKURA/2646988632745303996.jpg" alt="Art Piece">
-                    <div class="caption">Sumikura's artboard, 2026.</div>
-                </div>
-                <div class="gallery-item">
-                    <img class="draw" src="SUMIKURA/Artboard 1.jpg" alt="Art Piece">
-                    <div class="caption">Sumikura's artboard, 2026.</div>
-                </div>
-                <!--<div class="gallery-item">
-                    <img class="draw" src="SUMIKURA/FRAME 3.png" alt="Art Piece">
-                    <div class="caption">Sumikura's artboard, 2026.</div>
-                </div>
-                <div class="gallery-item">
-                    <img class="draw" src="SUMIKURA/kv 1.png" alt="Art Piece">
-                    <div class="caption">Sumikura's artboard, 2026.</div>
-                </div>
-                <div class="gallery-item">
-                    <img class="draw" src="SUMIKURA/Untitled-1.jpg" alt="Art Piece">
-                    <div class="caption">Sumikura's artboard, 2026.</div>
-                </div>-->
-                <!--<div class="gallery-item">
-                    <img class="draw" src="SUMIKURA/Untitled-2.jpg" alt="Art Piece">
-                    <div class="caption" >Sumikura's artboard, 2026.</div>
-                </div>-->
-                <div class="gallery-item">
-                    <img class="draw" src="SUMIKURA/IMG_1026.JPG" alt="Art Piece">
-                    <div class="caption">Sumikura's artboard, 2026.</div>
-                </div>
-                <div class="gallery-item">
-                    <img class="draw" src="SUMIKURA/Untitled_Artwork.jpg" alt="Art Piece">
-                    <div class="caption">Sumikura's artboard, 2026.</div>
-                </div>
-                <!--<div class="gallery-item">
-                    <img class="draw" src="SUMIKURA/E1B706C3-C6B0-499A-A517-4B5E3E2DD009.jpg" alt="Art Piece">
-                    <div class="caption">I think this one is cute, 2026.</div>
-                </div>-->
-                <div class="gallery-item">
-                    <img class="draw" src="SUMIKURA/JOCULAR.png" alt="Art Piece">
-                    <div class="caption">Coltish, 2026.</div>
-                </div>
-                <div class="gallery-item">
-                    <img class="draw" src="img/bird right.png" alt="Art Piece">
-                    <div class="caption">Sparrow, 2026.</div>
-                </div>
-            </div>
-        </div>
-        <div style="height: 200mm; display: grid; grid-template-rows: 100mm 100mm;">
-            <div class="earth" style="height: 192.5mm; background-image: url(img/short\ chair.png); background-repeat: no-repeat; background-position: bottom center; background-size: 75% auto; margin-top: 45mm; width: 50mm;">
-            <div><div class="earth" style="height: 155mm; background-image: url(img/shortplant.png); background-repeat: no-repeat; background-position: bottom center; background-size: 65% auto; width: 57.5mm;";></div></div>
-        </div>
-    </div>
-        <!-- DIV SÀN -->
-        <div style="height: 90mm;"></div>
-        <div style="height: 90mm;"></div>
-        <!--<div style="height: 90mm;margin-top: 15mm;">
-            <div style="width: 80mm;display: grid; grid-template-rows: 2mm 50mm;">
-                <div class="earth" style="height: 90mm; background-image: url(img/lowtable.png); background-repeat: no-repeat; background-position: bottom left; background-size: 100% auto; width: 115mm;" ></div>
-                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; width: 80mm;">
-                    <div class="earth" style="margin-left: 20mm;height: 35mm; background-image: url(img/coffee.png); background-repeat: no-repeat; background-position: bottom left; background-size: 100% auto; width: 20mm;" ></div>
-                    <div class="earth" style="margin-top: 10mm;height: 40mm; background-image: url(img/cherry.png); background-repeat: no-repeat; background-position: bottom left; background-size: 100% auto; width: 35mm;" ></div>
+            <div class="content1"
+                style="display: grid; grid-template-columns: 100mm 130mm 195mm 100mm; align-items:start;">
+                <div></div>
+                <div style="display: grid; grid-template-rows: 19mm 10mm;">
                     <div></div>
+                    <div class="bird"
+                        style="height: 27.5mm; background-image: url(imgwebp/bird\ left.webp); background-repeat: no-repeat; background-position: left bottom; background-size: 27.5% auto; filter: drop-shadow(8px 8px 8px rgba(0,0,0,0.35));transition: all 1s ease-in-out;">
+                    </div>
+                </div>
+                <div style="display: grid; grid-template-rows: 7.5mm 10mm;">
+                    <div></div>
+                    <div class="snake"
+                        style="height: 25mm; background-image: url(imgwebp/snake.webp); background-repeat: no-repeat; background-position: left bottom; background-size: 100% auto;">
+                    </div>
+                </div>
+                <div></div>
+            </div>
+            <div class="content2"
+                style="display: grid; grid-template-columns: 100mm 330mm 100mm; align-items:start; margin-top: 20mm;">
+                <label for="lamp-trigger" class="lamp-container-label"
+                    style="width: 90mm; margin-left: 10mm; margin-top: 40mm;">
+                    <div class="lamptext" style="height: 175mm;display: grid; grid-template-rows: 10mm 50mm;">
+                        <div class="lampt"
+                            style="height: 175mm; background-size: 115% auto; background-repeat: no-repeat; background-position: bottom;">
+                        </div>
+                        <div class="ltext"
+                            style="font-family: 'Rock Salt', cursive; display: flex; align-items: flex-end; text-align: center; margin-left: 25mm; filter: drop-shadow(0px 0px 0px rgba(0,0,0,0)); height: 75mm; color: #002b59; line-height: 28px;">
+                            I made this<br> for fun,<br> please don't judge</div>
+                    </div>
+                </label>
+                <div style="height: 224mm; display: grid; grid-template-rows: 15mm 220mm;">
+                    <div
+                        style="font-family:Rock Salt; color:  #002b59; font-size: 13px; padding: 0px 15px; text-align: left; letter-spacing: 2px; margin-top: 5mm; margin-left:40mm;">
+                        <div class="cover_right_start1"
+                            style="width: 125mm; height: 75mm; background-image: url(imgwebp/neon.webp); padding: 7px 20px; line-height: 26px;">
+                            <div>Swipe right to glance, swipe down to dance :></div>
+                        </div>
+                    </div>
+                    <div class="fridge_compartments">
+                        <div class="compartment">
+                            <!-- HPH -->
+                            <div class="tray"
+                                style="background-image: url(imgwebp/innerhph.png.webp); background-repeat: no-repeat; background-size: 100% auto;">
+                                <div class="stage">
+                                    <div style=" display: grid; grid-template-columns: 110mm 1fr 60.5mm;">
+                                        <div style="padding-top: 5mm;">
+                                            <div class="logo"
+                                                style="background-image: url(imgwebp/hph.webp); height: 45mm; background-position: center;">
+                                            </div>
+                                        </div>
+                                        <div
+                                            style="padding: 7.5mm 0mm; font-weight: bold; font-size: 15px; letter-spacing: 1px;">
+                                            <span style="font-size: 24px; letter-spacing: 3px; font-weight: bold;;">HANH
+                                                PHUC HOSPITAL</span><br><br>- Social Media Assets
+                                            <br>- Key Visuals
+                                            <br>- Marketing & Campaign Materials
+                                        </div>
+                                        <div
+                                            style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center; padding-bottom: 3mm;">
+                                            <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe right</div>
+                                            <div
+                                                style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/left-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: 50% auto; display: flex; align-items: center; justify-content: center;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fridge_compartments1">
+                                        <div class="compartment1" style="display: grid; grid-row: 125mm 30mm;">
+                                            <div class="tray1">
+                                                <div
+                                                    style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/HPH_POST\ 36\ copy.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/HPH_39.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/HPH_POST\ 34_R3\ copy.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style=" display: grid; grid-template-columns: 60mm 1fr">
+                                                <div
+                                                    style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                                    <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
+                                                    <div
+                                                        style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;">
+                                                    </div>
+                                                </div>
+                                                <div></div>
+                                            </div>
+                                            <div class="tray1">
+                                                <div
+                                                    style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/HPH_63\ copy.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/HPH_POST\ 56\ copy.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/HPH_53.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style=" display: grid; grid-template-columns: 60mm 1fr">
+                                                <div
+                                                    style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                                    <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
+                                                    <div
+                                                        style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;">
+                                                    </div>
+                                                </div>
+                                                <div></div>
+                                            </div>
+                                            <div class="tray1">
+                                                <div
+                                                    style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/HPH_POST\ 44_R1.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/HPH_POST\ 44_ĐA\ KHOA_R1.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/HPH_POST\ 44_NGOẠI\ KHOA_R1.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style=" display: grid; grid-template-columns: 60mm 1fr">
+                                                <div
+                                                    style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                                    <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
+                                                    <div
+                                                        style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;">
+                                                    </div>
+                                                </div>
+                                                <div></div>
+                                            </div>
+                                            <div class="tray1">
+                                                <div
+                                                    style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/HPH_POST\ 44_IVF_R1.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/HPH_POST\ 44_SẢN\ PHỤ\ KHOA_R1.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/HPH_POST\ 44_NHI\ KHOA_R1.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style=" display: grid; grid-template-columns: 60mm 1fr">
+                                                <div
+                                                    style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                                    <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
+                                                    <div
+                                                        style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;">
+                                                    </div>
+                                                </div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- PFIZER -->
+                            <div class="tray"
+                                style="background-image: url(imgwebp/innerpfizer.png.webp); background-repeat: no-repeat; background-size: 100% auto;">
+                                <div class="stage">
+                                    <div style=" display: grid; grid-template-columns: 110mm 1fr 60.5mm;">
+                                        <div style="padding-top: 5mm;">
+                                            <div class="logo"
+                                                style="background-image: url(imgwebp/pfizer.webp); height: 45mm; background-position: center;">
+                                            </div>
+                                        </div>
+                                        <div
+                                            style="padding: 7.5mm 0mm; font-weight: bold; font-size: 15px; letter-spacing: 1px;">
+                                            <span
+                                                style="font-size: 24px; letter-spacing: 3px; font-weight: bold;;">PFIZER</span><br><br>-
+                                            Social Media Assets
+                                            <br>- Key Visuals
+                                            <br>- Marketing & Campaign Materials
+                                        </div>
+                                        <div
+                                            style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center; padding-bottom: 3mm;">
+                                            <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe right</div>
+                                            <div
+                                                style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/left-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: 50% auto; display: flex; align-items: center; justify-content: center;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fridge_compartments1">
+                                        <div class="compartment1" style="display: grid; grid-row: 125mm 30mm;">
+                                            <div class="tray1">
+                                                <div
+                                                    style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/PFIZER_2.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/PFIZER_4.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/PFIZER_5\ copy.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style=" display: grid; grid-template-columns: 60mm 1fr">
+                                                <div
+                                                    style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                                    <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
+                                                    <div
+                                                        style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;">
+                                                    </div>
+                                                </div>
+                                                <div></div>
+                                            </div>
+                                            <div class="tray1">
+                                                <div
+                                                    style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/PFIZER_2.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/PFIZER_2.1.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/PFIZER_2.2.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style=" display: grid; grid-template-columns: 60mm 1fr">
+                                                <div
+                                                    style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                                    <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
+                                                    <div
+                                                        style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;">
+                                                    </div>
+                                                </div>
+                                                <div></div>
+                                            </div>
+                                            <div class="tray1">
+                                                <div
+                                                    style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
+                                                    <div class="spham" style="width: 100mm; height: 100mm;"></div>
+                                                    <div class="spham"
+                                                        style=" background-image: url(productswebp/PFIZER_2.3.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/PFIZER_2.4.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style=" display: grid; grid-template-columns: 60mm 1fr">
+                                                <div
+                                                    style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                                    <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
+                                                    <div
+                                                        style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;">
+                                                    </div>
+                                                </div>
+                                                <div></div>
+                                            </div>
+                                            <div class="tray1">
+                                                <div
+                                                    style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/PFIZER_4.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/PFIZER_4.1.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/PFIZER_4.2.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style=" display: grid; grid-template-columns: 60mm 1fr">
+                                                <div
+                                                    style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                                    <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
+                                                    <div
+                                                        style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;">
+                                                    </div>
+                                                </div>
+                                                <div></div>
+                                            </div>
+                                            <div class="tray1">
+                                                <div
+                                                    style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
+                                                    <div class="spham" style="width: 100mm; height: 100mm;"></div>
+                                                    <div class="spham"
+                                                        style=" background-image: url(productswebp/PFIZER_4.3.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/PFIZER_4.4.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style=" display: grid; grid-template-columns: 60mm 1fr">
+                                                <div
+                                                    style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                                    <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
+                                                    <div
+                                                        style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;">
+                                                    </div>
+                                                </div>
+                                                <div></div>
+                                            </div>
+                                            <div class="tray1">
+                                                <div
+                                                    style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/PFIZER_5\ copy.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/PFIZER_5.1.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/PFIZER_5.2.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style=" display: grid; grid-template-columns: 60mm 1fr">
+                                                <div
+                                                    style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                                    <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
+                                                    <div
+                                                        style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;">
+                                                    </div>
+                                                </div>
+                                                <div></div>
+                                            </div>
+                                            <div class="tray1">
+                                                <div
+                                                    style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
+                                                    <div class="spham" style="width: 100mm; height: 100mm;"></div>
+                                                    <div class="spham"
+                                                        style=" background-image: url(productswebp/PFIZER_5.3.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/PFIZER_5.4.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style=" display: grid; grid-template-columns: 60mm 1fr">
+                                                <div
+                                                    style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                                    <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
+                                                    <div
+                                                        style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;">
+                                                    </div>
+                                                </div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- DAIKIN -->
+                            <div class="tray"
+                                style="background-image: url(imgwebp/innerdaikin.png.webp); background-repeat: no-repeat; background-size: 100% auto;">
+                                <div class="stage">
+                                    <div style=" display: grid; grid-template-columns: 110mm 1fr 60.5mm;">
+                                        <div style="padding-top: 5mm;">
+                                            <div class="logo"
+                                                style="background-image: url(imgwebp/daikin.webp); height: 45mm; background-position: center;">
+                                            </div>
+                                        </div>
+                                        <div
+                                            style="padding: 7.5mm 0mm; font-weight: bold; font-size: 15px; letter-spacing: 1px;">
+                                            <span
+                                                style="font-size: 24px; letter-spacing: 3px; font-weight: bold;;">DAIKIN</span><br><br>-
+                                            Social Media Assets
+                                            <br>- Key Visuals
+                                            <br>- Marketing & Campaign Materials
+                                        </div>
+                                        <div
+                                            style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center; padding-bottom: 3mm;">
+                                            <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe right</div>
+                                            <div
+                                                style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/left-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: 50% auto; display: flex; align-items: center; justify-content: center;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fridge_compartments1">
+                                        <div class="compartment1" style="display: grid; grid-row: 125mm 30mm;">
+                                            <div class="tray1">
+                                                <div
+                                                    style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/DAIKIN_4.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/DAIKIN_P5.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="carousel" style=" width:100mm; height: 100mm;">
+                                                        <div class="cardlong"
+                                                            style="background-image: url(productswebp/DAIKIN_a10.webp);"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style=" display: grid; grid-template-columns: 60mm 1fr">
+                                                <div
+                                                    style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                                    <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
+                                                    <div
+                                                        style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;">
+                                                    </div>
+                                                </div>
+                                                <div></div>
+                                            </div>
+                                            <div class="tray1">
+                                                <div
+                                                    style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/DAIKIN_4.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/DAIKIN_41.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/DAIKIN_42.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style=" display: grid; grid-template-columns: 60mm 1fr">
+                                                <div
+                                                    style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                                    <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
+                                                    <div
+                                                        style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;">
+                                                    </div>
+                                                </div>
+                                                <div></div>
+                                            </div>
+                                            <div class="tray1">
+                                                <div
+                                                    style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
+                                                    <div class="spham" style="width: 100mm; height: 100mm;"></div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/DAIKIN_43.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/DAIKIN_44.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style=" display: grid; grid-template-columns: 60mm 1fr">
+                                                <div
+                                                    style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                                    <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
+                                                    <div
+                                                        style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;">
+                                                    </div>
+                                                </div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- COZZ TRAPHACO NAM NGU-->
+                            <div class="tray"
+                                style="background-image: url(imgwebp/innersum.webp); background-repeat: no-repeat; background-size: 100% auto;">
+                                <div class="stage">
+                                    <div style=" display: grid; grid-template-columns: 110mm 110mm 110mm;">
+                                        <div style="padding-top: 5mm;">
+                                            <div class="logo"
+                                                style="background-image: url(imgwebp/cozz.webp); height: 45mm; background-position: center;">
+                                            </div>
+                                        </div>
+                                        <div style="padding-top: 5mm;">
+                                            <div class="logo"
+                                                style="background-image: url(imgwebp/traphaco.webp); height: 45mm; background-position: center;">
+                                            </div>
+                                        </div>
+                                        <div style="padding-top: 5mm;">
+                                            <div class="logo"
+                                                style="background-image: url(imgwebp/namngurotae.webp); height: 45mm; background-position: bottom left;background-size: 75% auto;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fridge_compartments1">
+                                        <div class="compartment1" style="display: grid; grid-row:  125mm 30mm;">
+                                            <div class="tray1">
+                                                <div
+                                                    style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/COZZ_POST\ 1\ _\ R5a.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/TRAPHACO_Artboard\ 1.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/NAMNGU_Artboard\ 1.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style=" display: grid; grid-template-columns: 60mm 1fr">
+                                                <div
+                                                    style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                                    <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
+                                                    <div
+                                                        style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;">
+                                                    </div>
+                                                </div>
+                                                <div></div>
+                                            </div>
+                                            <div class="tray1">
+                                                <div
+                                                    style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
+                                                    <div class="spham" style="width: 100mm; height: 100mm;"></div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/TRAPHACO_P4.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/NAMNGU_Artboard\ 2.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style=" display: grid; grid-template-columns: 60mm 1fr">
+                                                <div
+                                                    style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                                    <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
+                                                    <div
+                                                        style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;">
+                                                    </div>
+                                                </div>
+                                                <div></div>
+                                            </div>
+                                            <div class="tray1">
+                                                <div
+                                                    style="display: grid; grid-template-columns: 100mm 100mm 100mm; height: 100mm; column-gap: 5mm; align-items: end;">
+                                                    <div class="spham" style="width: 100mm; height: 100mm;"></div>
+                                                    <div class="spham"
+                                                        style="background-image: url(productswebp/TRAPHACO_traphacob_R1.webp);width: 100mm; height: 100mm;">
+                                                    </div>
+                                                    <div class="spham" style="width: 100mm; height: 100mm;"></div>
+                                                </div>
+                                            </div>
+                                            <div style=" display: grid; grid-template-columns: 60mm 1fr">
+                                                <div
+                                                    style="align-items: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                                                    <div style="margin-bottom: 2.5mm; font-size: 14px;">Swipe down</div>
+                                                    <div
+                                                        style="border: 0.5px solid #4e4035; width: 15mm; height: 15mm; background-image: url(img/down-arrow.svg) ; background-position: center; background-repeat: no-repeat; border-radius: 10mm; background-size: auto 50%; display: flex; align-items: center; justify-content: center;">
+                                                    </div>
+                                                </div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="height: 50mm; margin-top: 80mm;width: 75mm;">
+                    <div class="lizard"
+                        style="background-size: auto 100%; background-repeat: no-repeat; background-position: right bottom; height: 60mm;">
+                    </div>
                 </div>
             </div>
             <div></div>
-        </div>-->
-        <div style="height: 90mm; margin-top: 10mm;"><div class="earth" style="height: 90mm; background-image: url(img/earth\ plant.png); background-repeat: no-repeat; background-position: bottom left; background-size: auto 100%;" ></div></div>
+            <div
+                style="height: 200mm;display: grid; grid-template-rows: 19mm 220mm; margin-left: auto; margin-right: auto; margin-top: 50mm;">
+                <div class="cover_right_start"
+                    style="font-family:Rock Salt; color:  #002b59; font-size: 13px; padding: 0px 15px; text-align: left; letter-spacing: 2px; margin-left: 70mm;">
+                    <div class="cover_right_start1"
+                        style="width: 240mm; height: 17.5mm; background-image: url(imgwebp/lime.webp); padding: 7px 20px; line-height: 26px;">
+                        <div>The main compartment is orderly, but the crisper drawer is pure experimental mess.<br>To
+                            save you the trouble of rummaging through, I’ve spread it all out right on the floor :'>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-grid" style="width: 330mm;">
+                    <div class="gallery-item">
+                        <img class="draw" src="imgwebp/60E9C281-8FF0-4E8D-B463-5166B96FF7DE.webp" alt="Art Piece">
+                        <div class="caption">Simpatico, 2025. Experiment with Ps gradient map.</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="draw" src="imgwebp/IMG_2975.webp" alt="Art Piece">
+                        <div class="caption">Mendicant, 2025. Experiment with Ps gradient map.</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="draw" src="imgwebp/IMG_3098.webp" alt="Art Piece">
+                        <div class="caption">Radish, 2025. Experiment with Ps gradient map.</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="draw" src="imgwebp/pettit.webp" alt="Art Piece">
+                        <div class="caption">Le Pettit Prince, 2026.</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="draw" src="imgwebp/IMG_2901.webp" alt="Art Piece">
+                        <div class="caption">Luminousity, 2025. Experiment with Ps gradient map.</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="draw" src="imgwebp/fish.webp" alt="Art Piece">
+                        <div class="caption">Ambrosia, 2026.</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="draw" src="imgwebp/IMG_2900.webp" alt="Art Piece">
+                        <div class="caption">Dessicated, 2025. Experiment with Ps gradient map.</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="draw" src="imgwebp/Untitled_Artwork.webp" alt="Art Piece">
+                        <div class="caption">Equanimity, 2025.</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="draw" src="imgwebp/IMG_2866.webp" alt="Art Piece">
+                        <div class="caption">Devoutness, 2025. Experiment with Ps gradient map.</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="draw" src="imgwebp/IMG_2872.webp" alt="Art Piece">
+                        <div class="caption">Alienation, 2025. Experiment with Ps gradient map.</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="draw" src="imgwebp/A8903BBD-F4F3-4F5B-AAAB-CC8451482851.webp" alt="Art Piece">
+                        <div class="caption">Bông mít, 2022.</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="draw" src="imgwebp/original.gif" alt="Art Piece">
+                        <div class="caption">Freakin' fridge, 2026.</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="draw" src="productswebp/SUMIKURA_2646988632745303996.webp" alt="Art Piece">
+                        <div class="caption">Sumikura's artboard, 2026.</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="draw" src="productswebp/SUMIKURA_Artboard 1.webp" alt="Art Piece">
+                        <div class="caption">Sumikura's artboard, 2026.</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="draw" src="productswebp/SUMIKURA_IMG_1026.webp" alt="Art Piece">
+                        <div class="caption">Sumikura's artboard, 2026.</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="draw" src="productswebp/SUMIKURA_Untitled_Artwork.webp" alt="Art Piece">
+                        <div class="caption">Sumikura's artboard, 2026.</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="draw" src="productswebp/SUMIKURA_JOCULAR.webp" alt="Art Piece">
+                        <div class="caption">Coltish, 2026.</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img class="draw" src="imgwebp/bird right.webp" alt="Art Piece">
+                        <div class="caption">Sparrow, 2026.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <script>(function () {
+            var wrapper = document.getElementById('scale-wrapper');
+            var DESIGN_WIDTH_PX = 530 * 96 / 25.4;
+
+            function fitToScreen() {
+                wrapper.style.transform = 'none';
+                wrapper.style.width = DESIGN_WIDTH_PX + 'px';
+                var naturalHeight = wrapper.getBoundingClientRect().height;
+
+                var scale = window.innerWidth / DESIGN_WIDTH_PX;
+                if (scale > 1) scale = 1;
+
+                wrapper.style.transformOrigin = 'top left';
+                wrapper.style.transform = 'scale(' + scale + ')';
+
+                document.body.style.height = (naturalHeight * scale) + 'px';
+                document.body.style.overflowX = 'hidden';
+            }
+
+            var resizeTimer;
+            function onResize() {
+                clearTimeout(resizeTimer);
+                resizeTimer = setTimeout(fitToScreen, 100);
+            }
+
+            window.addEventListener('load', fitToScreen);
+            window.addEventListener('resize', onResize);
+            window.addEventListener('orientationchange', fitToScreen);
+            fitToScreen();
+        })();
+    </script>
 </body>

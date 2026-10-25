@@ -139,7 +139,6 @@ body {
   color: #4e4035;
   transition: all 1s ease-in-out;
 }
-
 .content:hover {
   cursor: pointer;
   transition: 1s;

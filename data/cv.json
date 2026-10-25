@@ -1,0 +1,43 @@
+{
+  "education": [
+    {
+      "institution": "Ho Chi Minh University of Architecture",
+      "degree": "Bachelor's degree in Industrial Design",
+      "time": "September 2019 - July 2023",
+      "honors": "Graduation Thesis Salutatorian"
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Networld Solutions Asia",
+      "position": "Graphic Designer",
+      "time": "November 2025 - June 2026",
+      "description": "Designed social media visuals and marketing assets for agency clients. Collaborated with the creative team to develop key visuals and campaign materials."
+    }
+  ],
+  "expertise": {
+    "languages": [
+      "Native Vietnamese",
+      "Fluent English",
+      "Intermediate Korean",
+      "Basic Python",
+      "Html",
+      "Css",
+      "Js"
+    ],
+    "soft_skills": [
+      "Creative Thinking",
+      "Problem Solving",
+      "Experimenting",
+      "Trend Forecasting",
+      "Storyboarding"
+    ],
+    "hard_skills": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Adobe Indesign",
+      "Rhino",
+      "Blender"
+    ]
+  }
+}
